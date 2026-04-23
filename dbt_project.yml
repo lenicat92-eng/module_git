@@ -43,7 +43,7 @@ models:
   my_first_dbt_project:
 
     staging:
-      +materialized: view
+      +materialized: table
       google_analytics:
         +schema: stg_google_analytics
       sales_database:
